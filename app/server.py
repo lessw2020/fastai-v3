@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/file/d/1Xg9qs-fz3hpZORYDMSq4qGY8-yR6m_SL/view?usp=sharing'
-export_file_name = 'EffNetB5-Flu100.pkl'
+export_file_name = 'EffNetB5-Flu100'
 
 classes = ['both', 'flu-a', 'flu-b', 'invalid', 'negative']
 path = Path(__file__).parent
