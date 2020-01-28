@@ -9,8 +9,9 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1Xg9qs-fz3hpZORYDMSq4qGY8-yR6m_SL/view?usp=sharing'
-export_file_name = 'EffNetB5-Flu100'
+export_file_url = 'https://b5-100-1.s3-us-west-2.amazonaws.com'
+#'https://drive.google.com/file/d/1Xg9qs-fz3hpZORYDMSq4qGY8-yR6m_SL/view?usp=sharing'
+export_file_name = 'export.pkl'
 
 classes = ['both', 'flu-a', 'flu-b', 'invalid', 'negative']
 path = Path(__file__).parent
